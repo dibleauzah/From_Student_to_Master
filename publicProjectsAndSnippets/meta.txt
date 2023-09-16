@@ -2,3 +2,17 @@ Sept 14:
 
 >> Launch of project! :-)
 
+Sept 15 to Sept 20:
+(Adjust accordingly; i.e., add more tasks if you complete the ones below.)
+
+>> Goal(s):
+
+___1) minMaxAvg // JS
+
+___2) Algos in general; review the old ones, master them, then continue to more complex ones.
+
+___3) Snippets of React 
+
+___4) Data-Sci practice--FA-23, part 1.
+
+___5) Private repo: start or continue real app.
