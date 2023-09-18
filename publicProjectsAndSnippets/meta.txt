@@ -16,3 +16,10 @@ ___3) Snippets of React
 ___4) Data-Sci practice--FA-23, part 1.
 
 ___5) Private repo: start or continue real app.
+
+
+//----------x----------//
+
+Progress Notes:
+
+>> [Add Here and Below]
