@@ -1,9 +1,9 @@
 '''
-
 //!_Sep 20
-____Goal: to keep up the momemtum with the final learning/practice. Specifically, for today, to update the directory before midnight. Algo for practice: one of the "CoderByte 18"; "FizzBuzz". 
-
-____Testing suspended.
+___Goal: to keep up the momemtum with the final learning/practice. 
+___Specifically, for today, to update the directory before midnight. 
+Algo for practice: one of the "CoderByte 18"; "FizzBuzz". 
+___Testing suspended.
 '''
 
 def fizzBuzz(n):
