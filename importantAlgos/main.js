@@ -25,3 +25,86 @@
 
 //!_End of Day
 //!-------------------------------//
+
+//!_Date: Sept 24
+//!_Agenda: As many algos as possible before 11:59 PM.
+
+//!_Update: I wasn't able to finish these on the above date--Sept 24.
+//!_Current Date: Oct 1, 2023.
+
+//?_(#-3 of Basic 13)_"Iterate through a given array, backwards, printing each value."
+//?_Printing/testing suspended.
+// arr = [1, 2, 3];
+// function arrValDecrease (){
+//     for (let i = arr.length; i >= 0; i--){
+//         console.log(arr[i]);
+//     }
+// }
+
+//?_(#-5 of CoderByte 18)_"Is N a prime number?"
+//?_Printing/testing suspended.
+// function isNPrime(n){
+//     if (n < 2) { return false; }
+//     for (let i = 2; i <= Math.ceil(Math.ceil(n)); i++){
+
+//         if (n % i === 0) { return false; }
+//     }
+//     return true;
+// }
+
+//?_(#-7 of Basic 13)_"Create an array with all the odd integers between 1 and 255 (inclusive)."
+//?_Printing/testing suspended.
+// function printOdds(){
+//     for (let i = 0; i <= 255; i++){
+//         if (i % 2 !== 0){
+//             console.log(i);
+//         }
+//     }
+// }
+
+//?_(#-9 of CoderByte 18)_"First Non-Repeating Character."
+//?_Printing/testing suspended.
+
+// function firstNonRepeating (string){
+//     let hashTable = {};
+//     for (let c of string){
+//         if (hashTable[c] === undefined){
+//             hashTable[c] = 1;
+//         } else {
+//             hashTable[c] += 1;
+//         }
+//     }
+//     for (let c of string){
+//         if (hashTable[c] === 1){
+//             return c;
+//         }
+//     }
+//     return -1;
+// }
+
+//?_(#-17 of CoderByte-18)_"Convert array of strings into an object."
+
+// function convertString(string){
+
+//     let obj = {};
+//     const people = string.split(' ');
+//     for (let p of people){
+//         const info = p.split(',');
+//         let userObj = {
+//             'email': info[1] || null,
+//             'age': parseInt(info[2]) || null,
+//             'occupation': info[3] || null 
+//        };
+//        obj[info[0]] = userObj;
+//     }
+//     return obj;
+// }
+// let s = "Daniel,me@test.com,56,Coder John,,,Teacher Michael,mike@test.com,,"; 
+// let people = convert(s);
+// //?_Testing: suspended.
+// people['Daniel']['age']; // => 56 people['Michael']['occupation'] // => null
+// 51
+
+//!_End of Day
+//!-------------------------------//
+

@@ -1,0 +1,18 @@
+#print "Just testing..."
+
+# def min_max_andAvg (numbers)
+#     minimum = numbers.min 
+#     maximum = numbers.max 
+#     avg = numbers.sum / numbers.length.to_f
+
+#     return minimum, maximum, avg
+# end
+
+# numbers = [1, 2, 3, 4, 5]
+
+# min, max, avg = min_max_andAvg(numbers)
+
+# puts "Hi! Please note that your minimum is #{min}, your max is #{max}, and your average is #{avg}. Have a great day! :-)"
+
+# test..
+

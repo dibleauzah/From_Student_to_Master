@@ -1,0 +1,181 @@
+Use This Site To Test: https://playcode.io/
+
+//!_No.--1: Print 1-255:
+
+for (let i = 1; i <= 255; i++){
+	console.log(i);
+}
+
+-----------------------------
+//!_No.--2 Print Odds 1 - 255:
+
+function printOdds1To255 (){
+	for (let i = 1; i <= 255; i++){
+		if (i % 2 !== 0) {
+		console.log(i);
+	}
+}
+
+-----------------------------
+//!_No.--3  Iterate through a given array, backwards, printing each value:
+
+arr = [1, 2, 3];
+
+function arrayValDecrease (){
+	for (let i = arr.length; i >= 0; i--){
+		console.log(arr[i]);
+	}
+}
+
+-----------------------------
+//!_No.--4 Given an array, print the minimum element value:
+
+let arr = [-90, -100, 60, 20, 4000];
+
+let min = Infinity;
+
+function findMin (arr){
+	for (let i = 0; i < arr.length; i++){
+	if (min > arr[i]){
+		min = arr[i];
+	}
+}
+return min;
+}
+console.log(findMin(arr));
+
+-----------------------------
+//!_No.--5 Get And Print a Given Array's Avg:
+
+function getArrAvg (){
+	let sum = 0;
+	for (let i = 0; i < arr.length; i++){
+		sum = sum + arr[i];
+	}
+	return sum / arr.length;
+}
+
+-----------------------------
+//!_No.--6 Given an array of [1, 2, 3] expand the array to contain 4, 5, 6 as well:
+
+let arr = [1, 2, 3];
+
+function appendNext (arr){
+	arr.push(4, 5, 6);
+	return arr;
+}
+console.log(appendNext(arr));
+
+-----------------------------
+//!_No.--7 Create an array with all the odd integers between 1 and 255 (inclusive):
+
+function arrayWithOdds(){
+	let arr = [];
+	for (let i = 0; i <= 255; i++){
+	if (i % 2 == 1){
+		arr.push(i);
+	}
+	}
+	return arr;
+}
+console.log(arrayWithOdds());
+
+
+-----------------------------
+//!_No.--8 Square the Values
+
+const arr = [1, 2, 3, 4];
+
+function squareValues(arr) {
+	for (let i = 0; i < arr.length; i++){
+	arr[i] = arr[i] ** 2;
+	}
+}
+
+squareValues(arr);
+console.log(arr);
+
+-----------------------------
+//!_No.--9  Greater Than Y
+//Given an array and a value Y, count and print the number of array values greater than Y.
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8];
+let Y = 3;
+
+function greaterThanY(arr){
+	for (let i = 0; i < arr.length; i++){
+		if (arr[i] > Y){
+			console.log(arr[i]);
+		}
+	}
+}
+greaterThanY(arr);
+
+-----------------------------
+//!_No.--10 Zero Out Negative Numbers
+// Create an array, and loop through the array. If the values are less than 0, return as 0.
+
+let arr = [1, 2, -3, 4, -5];
+
+function zeroOut (arr){
+	for (let i = 0; i < arr.length; i++){
+		if (arr[i] < 0){
+			arr[i] = 0;
+		}
+	}
+}
+zeroOut(arr);
+console.log(arr);
+
+-----------------------------
+//!_No.--11 Max, Min, Average
+//_Given an array, print the max, min and average values for that array.
+
+let myArray = [1, 2, 3, 4, 5];
+
+var min = myArray[0];
+var max = myArray[0];
+var avg = 0;
+
+for (let i = 0; i < myArray.length; i++){
+	if (myArray[i] < min) min = myArray[i];
+	if (myArray[i] > max) max = myArray[i];
+	avg += myArray[i];
+}
+
+avg /= myArray.length;
+
+// console.log("Min is : " + min);
+// console.log("Max is : " + max);
+// console.log("Average is : " + avg);
+
+-----------------------------
+//!_No.--12 Shift Array Values
+//todo_Given an array, move all values forward by one index, dropping the first and leaving a "0" value at the end.
+
+let myArray = [1, 2, 3, 4, 5];
+
+function shiftArray(){
+	myArray.shift();
+	myArray.push(0);
+
+	return myArray;
+}
+console.log(shiftArray());
+
+-----------------------------
+//!_No.--13 Swap String For Array Negative Values
+//Given an array of numbers, replace any negative vlaues with the string of "Dojo".
+
+let arr = [1, 2, -3, 4, -5];
+
+function zeroOut (arr){
+   for (let i = 0; i < arr.length; i++){
+        if (arr[i] < 0){
+            arr[i] = "Dojo";
+ 		}
+ 	}
+ }
+
+// zeroOut(arr);
+// console.log(arr);
