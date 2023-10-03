@@ -108,3 +108,31 @@
 //!_End of Day
 //!-------------------------------//
 
+//!_Date: Oct 2
+//!_Agenda 1; approx. 5:45 PM: "Min, Max, and Avg"
+//!_The intention is for me to do more coding before 11:59 PM today. But in the meantime, I can at least accomplish this "warm-up," the "Min, Max, and Avg" algo.
+
+//?_(#-11 of Basic 13)_"IGiven an array, print the max, min and average values for that array."
+//?_Printing/testing suspended.
+
+// let myArr = [1, 2, 3, 4, 5];
+
+// var min = myArr[0];
+// var max = myArr[0];
+// var avg = 0;
+
+// for (let i = 0; i < myArr.length; i++){
+//     if (myArr[i] < min) min = myArr[i];
+//     if (myArr[i] > max) max = myArr[i];
+//     avg += myArr[i];
+// }
+
+// avg /= myArr.length;
+
+// console.log("Min is : " + min);
+// console.log("Max is : " + max);
+// console.log("Average is : " + avg);
+
+//!_End of Day
+//!-------------------------------//
+
