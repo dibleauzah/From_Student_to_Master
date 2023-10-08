@@ -52,24 +52,25 @@ ___Answer-Source: Google-Bard (Generative AI); link: https://rb.gy/8dbn4
 '''
 
 # Import the statistics module
-from statistics import mean
+# from statistics import mean
 
-# Create a list of numbers
-numbers = [1, 2, 3, 4, 5]
+# # Create a list of numbers
+# numbers = [1, 2, 3, 4, 5]
 
-# Find the minimum value
-min_value = min(numbers)
+# # Find the minimum value
+# min_value = min(numbers)
 
-# Find the maximum value
-max_value = max(numbers)
+# # Find the maximum value
+# max_value = max(numbers)
 
-# Find the average value
-average_value = mean(numbers)
+# # Find the average value
+# average_value = mean(numbers)
 
-# Print the results
-print("Minimum value: ", min_value)
-print("Maximum value: ", max_value)
-print("Average value: ", average_value)
+# # Print the results
+# print("Minimum value: ", min_value)
+# print("Maximum value: ", max_value)
+# print("Average value: ", average_value)
 
 #!_//---------------------------------------------------// 
+
 

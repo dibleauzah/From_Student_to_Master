@@ -60,4 +60,10 @@ Progress Notes; OCT 4:
 	>>> Related interesting development: apparently, the "import 'math'" instruction seems to work well in the algorithms sub-directory. And when I tested the statement "import Pandas" in the same file in which the "import 'math'" statement worked, the same problem occurred; i.e., the squiggly line appeared under 'Pandas' with VS-Code helpfully giving me some suggestions, re: how to solve the issue.
 	>>> (^^) Trouble-shooting: T.-B.-Continued!
 
+//----------x----------//
+Progress Notes; OCT 8:
+
+>> New notes added here: 
+	https://docs.google.com/document/d/198PAj76usnE-lsZvNux3o7IIu9SUZl4ononQLUCql8c/edit 
+
 
