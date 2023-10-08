@@ -43,3 +43,33 @@ ___"Is N a Prime Number?"
 #         return True 
 
 #!_//---------------------------------------------------// 
+
+'''
+//!_Oct 7
+___Same goal as previous entries above; i.e., keep up the momemtum with the final learning/practice.
+___"Challenge: Given a random array (e.g., [1, 2, 3, 4, 5], find the min, max, and average of that array."
+___Answer-Source: Google-Bard (Generative AI); link: https://rb.gy/8dbn4 
+'''
+
+# Import the statistics module
+from statistics import mean
+
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Find the minimum value
+min_value = min(numbers)
+
+# Find the maximum value
+max_value = max(numbers)
+
+# Find the average value
+average_value = mean(numbers)
+
+# Print the results
+print("Minimum value: ", min_value)
+print("Maximum value: ", max_value)
+print("Average value: ", average_value)
+
+#!_//---------------------------------------------------// 
+
