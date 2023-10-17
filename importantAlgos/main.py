@@ -72,5 +72,51 @@ ___Answer-Source: Google-Bard (Generative AI); link: https://rb.gy/8dbn4
 # print("Average value: ", average_value)
 
 #!_//---------------------------------------------------// 
+'''
+//_Oct 16 to 17
+___Goal: 4 of CoderByte 18.
+'''
+#//* 1)--"Is N Prime?"--Page 21:
+# import math
+# def isPrime(n):
+#     #?_All numbers less than 2 are not primes:
+#     if n < 2:
+#         return False 
+#     #?_Loop from 2 to square-root n:
+#     for i in range(2, int(math.ceil(math.sqrt(n)))):
+#         #?_Check if (n mod i) is equal to 0; if so, then there are 2 numbers--a and b, that can multiply to give n.
+#         if n % i == 0:
+#             return False
+#         #?_...else:
+#         return True
+    
+# print(isPrime(400))
+#?_Test successful. Current "n" = False. Changing to odd number gets you True. Side-bar: math is amazing/fun; apparently, I just looked up and confirmed the fact that all prime numbers are odd, but not all odd numbers are odd! [**_Mind-Blown Emoji_**]
+
+#//* 2)--First non-repeating character; page 31.
+
+# def firstNonRepChar(string):
+#     hashTable = {}
+
+#     #?_Store each character in the hash table with the frequency of times it occurs:
+#     for c in string:
+#         if c not in hashTable:
+#             hashTable[c] = 1
+#         else: 
+#             hashTable[c] += 1
+
+#     #?_Loop through the string and return the first character with a count of 1 in the hash table:
+#     for c in string:
+#         if hashTable[c] == 1:
+#             return c
+    
+#     #?_Return -1 if no unique character exists:
+#     return -1
+
+# print(firstNonRepChar("Abdacadabra!"))
+#?_Testing partially successful. Details to be discussed later with a pair-code session-mate.
+
+#!_//---------------------------------------------------// 
+
 
 
