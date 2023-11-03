@@ -8,7 +8,7 @@ ___Testing suspended.
 
 # def fizzBuzz(n):
 #     result = []
-#     for i in range(1, n + 1):  
+#     for i in range(1, n + 1):
 #         add = ''
 #         if i % 3 == 0:
 #             add += 'Fizz'
@@ -18,9 +18,9 @@ ___Testing suspended.
 #             result.append(i)
 #         else:
 #             result.append(add)
-#     return result 
+#     return result
 
-#!_//---------------------------------------------------// 
+#!_//---------------------------------------------------//
 
 '''
 //!_Oct 4
@@ -34,15 +34,15 @@ ___"Is N a Prime Number?"
 #     #?_Declaration of fact that all numbers less than 2 are not primes:
 #     if n < 2:
 #         return False
-    
+
 #     #?_Loop from 2 to sqrt(n):
 #     for i in range(2, int(math.ceil(math.sqrt(n)))):
-#         #?_Check if (n modulo i) is equal to 0, if so then there are two numbers--a and b, that can multiply to give n.    
+#         #?_Check if (n modulo i) is equal to 0, if so then there are two numbers--a and b, that can multiply to give n.
 #         if n % i == 0:
 #             return False
-#         return True 
+#         return True
 
-#!_//---------------------------------------------------// 
+#!_//---------------------------------------------------//
 
 '''
 //!_Oct 7
@@ -71,17 +71,17 @@ ___Answer-Source: Google-Bard (Generative AI); link: https://rb.gy/8dbn4
 # print("Maximum value: ", max_value)
 # print("Average value: ", average_value)
 
-#!_//---------------------------------------------------// 
+#!_//---------------------------------------------------//
 '''
 //_Oct 16 to 17
 ___Goal: 4 of CoderByte 18.
 '''
-#//* 1)--"Is N Prime?"--Page 21:
+# //* 1)--"Is N Prime?"--Page 21:
 # import math
 # def isPrime(n):
 #     #?_All numbers less than 2 are not primes:
 #     if n < 2:
-#         return False 
+#         return False
 #     #?_Loop from 2 to square-root n:
 #     for i in range(2, int(math.ceil(math.sqrt(n)))):
 #         #?_Check if (n mod i) is equal to 0; if so, then there are 2 numbers--a and b, that can multiply to give n.
@@ -89,11 +89,11 @@ ___Goal: 4 of CoderByte 18.
 #             return False
 #         #?_...else:
 #         return True
-    
-# print(isPrime(400))
-#?_Test successful. Current "n" = False. Changing to odd number gets you True. Side-bar: math is amazing/fun; apparently, I just looked up and confirmed the fact that all prime numbers are odd, but not all odd numbers are odd! [**_Mind-Blown Emoji_**]
 
-#//* 2)--First non-repeating character; page 31.
+# print(isPrime(400))
+# ?_Test successful. Current "n" = False. Changing to odd number gets you True. Side-bar: math is amazing/fun; apparently, I just looked up and confirmed the fact that all prime numbers are odd, but not all odd numbers are odd! [**_Mind-Blown Emoji_**]
+
+# //* 2)--First non-repeating character; page 31.
 
 # def firstNonRepChar(string):
 #     hashTable = {}
@@ -102,21 +102,58 @@ ___Goal: 4 of CoderByte 18.
 #     for c in string:
 #         if c not in hashTable:
 #             hashTable[c] = 1
-#         else: 
+#         else:
 #             hashTable[c] += 1
 
 #     #?_Loop through the string and return the first character with a count of 1 in the hash table:
 #     for c in string:
 #         if hashTable[c] == 1:
 #             return c
-    
+
 #     #?_Return -1 if no unique character exists:
 #     return -1
 
 # print(firstNonRepChar("Abdacadabra!"))
-#?_Testing partially successful. Details to be discussed later with a pair-code session-mate.
+# ?_Testing partially successful. Details to be discussed later with a pair-code session-mate.
 
-#!_//---------------------------------------------------// 
+#!_//---------------------------------------------------//
 
 
+'''
+//!_Nov 3
+___Random Goal: FizzBuzz
+___Instructions:
+Print out all the numbers from 1 to 100. But for every number divisible by 3 print replace it with the word “Fizz,” for any number divisible by 5 replace it with the word “Buzz” and for a number divisible by both 3 and 5 replace it with the word “FizzBuzz.”
+'''
 
+
+def fizzBuzz(n):
+
+    # ?_First, we store the resulting numbers in an array.
+    result = []
+
+    # ?_Next, we loop from 1 to our chosen/given "n" number.
+
+    for i in range(1, n + 1):
+
+        add = ''
+
+        # ?_Next, we check to see if we get a remainder when dividing by 3. If we don't, we'll know that this number is divisible by 3.
+        if i % 3 == 0:
+            add += 'Fizz'
+
+        # ?_We then check for divisibility by 5.
+        if i % 5 == 0:
+            add += 'Buzz'
+
+        # ?_Finally, we check for divisibility for both 3 and 5.
+        if add == '':
+            result.append(i)
+        else:
+            result.append(add)
+
+    return result
+
+# ?_Testing suspended.
+
+#!_//---------------------------------------------------//
