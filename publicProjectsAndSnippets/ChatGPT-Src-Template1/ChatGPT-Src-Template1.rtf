@@ -1,0 +1,144 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh16380\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="en">\
+<head>\
+  <meta charset="UTF-8">\
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+  <title>Financial Advisor Portal</title>\
+  <style>\
+    body \{\
+      font-family: Arial, sans-serif;\
+      margin: 0;\
+      padding: 0;\
+      background-color: #f4f4f4;\
+    \}\
+\
+    header \{\
+      background-color: #333;\
+      color: white;\
+      text-align: center;\
+      padding: 1em;\
+    \}\
+\
+    main \{\
+      max-width: 600px;\
+      margin: 20px auto;\
+      padding: 20px;\
+      background-color: white;\
+      border-radius: 8px;\
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);\
+    \}\
+\
+    form \{\
+      margin-top: 20px;\
+    \}\
+\
+    label \{\
+      display: block;\
+      margin-bottom: 8px;\
+    \}\
+\
+    input, button \{\
+      width: 100%;\
+      padding: 10px;\
+      margin-bottom: 10px;\
+      box-sizing: border-box;\
+    \}\
+\
+    button \{\
+      background-color: #4CAF50;\
+      color: white;\
+      border: none;\
+      border-radius: 4px;\
+      cursor: pointer;\
+    \}\
+\
+    button:hover \{\
+      background-color: #45a049;\
+    \}\
+  </style>\
+</head>\
+<body>\
+  <header>\
+    <h1>Financial Advisor Portal</h1>\
+  </header>\
+  <main>\
+    <!-- Login Form -->\
+    <form id="loginForm">\
+      <label for="username">Username:</label>\
+      <input type="text" id="username" name="username" required>\
+\
+      <label for="password">Password:</label>\
+      <input type="password" id="password" name="password" required>\
+\
+      <button type="button" onclick="login()">Login</button>\
+    </form>\
+\
+    <!-- Checklist Form -->\
+    <form id="checklistForm" style="display: none;">\
+      <h2>Client Checklist</h2>\
+      <!-- Add checklist items here -->\
+\
+      <button type="button" onclick="saveChecklist()">Save Checklist</button>\
+    </form>\
+\
+    <!-- Budget Form -->\
+    <form id="budgetForm" style="display: none;">\
+      <h2>Quarterly Personal Budget</h2>\
+      <!-- Add budget fields here -->\
+\
+      <button type="button" onclick="saveBudget()">Save Budget</button>\
+    </form>\
+  </main>\
+\
+  <script>\
+    // Mock data storage (replace with actual database integration)\
+    let users = [\
+      \{ username: 'admin', password: 'hashedpassword' \},\
+      // Add more users as needed\
+    ];\
+\
+    let currentUser = null;\
+\
+    function login() \{\
+      const username = document.getElementById('username').value;\
+      const password = document.getElementById('password').value;\
+\
+      // Mock authentication\
+      const user = users.find(u => u.username === username && u.password === hashPassword(password));\
+\
+      if (user) \{\
+        currentUser = user;\
+        document.getElementById('loginForm').style.display = 'none';\
+        document.getElementById('checklistForm').style.display = 'block';\
+        document.getElementById('budgetForm').style.display = 'block';\
+      \} else \{\
+        alert('Invalid username or password');\
+      \}\
+    \}\
+\
+    function saveChecklist() \{\
+      // Add code to save checklist data\
+      alert('Checklist saved!');\
+    \}\
+\
+    function saveBudget() \{\
+      // Add code to save budget data\
+      alert('Budget saved!');\
+    \}\
+\
+    // Mock password hashing function (replace with a secure hashing library)\
+    function hashPassword(password) \{\
+      // This is a simple example, do not use in production!\
+      return btoa(password);\
+    \}\
+  </script>\
+</body>\
+</html>\
+}

@@ -1,5 +1,6 @@
 '''
 //!_Sep 20
+
 ___Goal: to keep up the momemtum with the final learning/practice. 
 ___Specifically, for today, to update the directory before midnight. 
 Algo for practice: one of the "CoderByte 18"; "FizzBuzz". 
@@ -24,6 +25,7 @@ ___Testing suspended.
 
 '''
 //!_Oct 4
+
 ___Same goal as previous entry above; i.e., keep up the momemtum with the final learning/practice.
 ___"Is N a Prime Number?"
 '''
@@ -46,6 +48,7 @@ ___"Is N a Prime Number?"
 
 '''
 //!_Oct 7
+
 ___Same goal as previous entries above; i.e., keep up the momemtum with the final learning/practice.
 ___"Challenge: Given a random array (e.g., [1, 2, 3, 4, 5], find the min, max, and average of that array."
 ___Answer-Source: Google-Bard (Generative AI); link: https://rb.gy/8dbn4 
@@ -74,6 +77,7 @@ ___Answer-Source: Google-Bard (Generative AI); link: https://rb.gy/8dbn4
 #!_//---------------------------------------------------//
 '''
 //_Oct 16 to 17
+
 ___Goal: 4 of CoderByte 18.
 '''
 # //* 1)--"Is N Prime?"--Page 21:
@@ -121,6 +125,7 @@ ___Goal: 4 of CoderByte 18.
 
 '''
 //!_Nov 3
+
 ___Random Goal: FizzBuzz
 ___Instructions:
 Print out all the numbers from 1 to 100. But for every number divisible by 3 print replace it with the word “Fizz,” for any number divisible by 5 replace it with the word “Buzz” and for a number divisible by both 3 and 5 replace it with the word “FizzBuzz.”
@@ -157,3 +162,18 @@ def fizzBuzz(n):
 # ?_Testing suspended.
 
 #!_//---------------------------------------------------//
+
+
+'''
+//!_Dec 12
+
+___Random Goal: FizzBuzz
+___Instructions:
+Print out all the numbers from 1 to 100. But for every number divisible by 3 print replace it with the word “Fizz,” for any number divisible by 5 replace it with the word “Buzz” and for a number divisible by both 3 and 5 replace it with the word “FizzBuzz.”
+'''
+
+#//!_ zx
+
+
+#!_//---------------------------------------------------//
+

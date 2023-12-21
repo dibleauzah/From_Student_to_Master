@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      var SESSION_START = Date.now();
+      var BROWSER_DETAILS = {"name":"Safari"};
+      var BROWSER_WHITELISTED = true;
+      var IS_MOBILE = false;
+      var ROUTE_ENTRY_POINT = 'normal';
+      var STATIC_DIR = '/app_static/2023-12-11--18-26-54--a996845';
+      var VERSION = '2023-12-11--18-26-54--a996845';
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>
+      // Just create array for pushing calls for now. See GoogleAnalytics.ts for the remaining setup.
+      window['dataLayer'] = [];
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="google-site-verification"
+      content="5-RVJaN94CeM2jYsdIwhQW1lrlhldo_2cDps2htdO5o"
+    />
+
+    <link rel="manifest" href="/manifest" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/app_static/2023-12-11--18-26-54--a996845/css/sketchup.css"
+    />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon-precomposed"
+      href="/app_static/2023-12-11--18-26-54--a996845/images/web/sketchup-logo-precomposed.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,600|Roboto&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <title>SketchUp</title>
+    <meta
+      name="description"
+      content="Draw, orbit, push-pull: make anything you can imagine in SketchUp, anytime you imagine it."
+    />
+    <meta charset="utf-8" />
+    <meta name="theme-color" content="#f9f9fb" />
+
+    <style>
+      .loading-container {
+        align-items: center;
+        background-color: #fff;
+        display: flex;
+        font-size: 1.75vh; /* Controls the size of the logo */
+        height: 100%;
+        justify-content: center;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 71;
+      }
+    </style>
+  </head>
+
+  <body draggable="false">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-N3VX5D"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="toolbar-container"></div>
+    <!-- Tabindex is required to make the canvas focusable. -->
+    <div id="main-canvas-wrapper">
+      <canvas
+        tabindex="0"
+        id="canvas"
+        class="printable"
+        data-testid="mainCanvas"
+      ></canvas>
+    </div>
+    <div
+      data-testid="loadingContainer"
+      draggable="false"
+      id="loading-container"
+      class="loading-container"
+    >
+      <div class="su-loading-logo">
+        <div class="logo">
+          <svg
+            viewBox="0 0 200 200"
+            class="cube top"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="
+            M 0 200
+            L 130 200
+            C 160 200, 190 170, 190 140
+            L 190 0
+            L 140 0
+            L 140 110
+            C 140 130, 120 150, 100 150
+            L 50 150
+            L 50 0
+            L 0 0
+            Z"
+            />
+          </svg>
+          <svg
+            viewBox="0 0 190 190"
+            class="cube left"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="
+            M 50 40
+            L 140 40
+            L 140 190
+            C 165 190, 190 165, 190 140
+            L 190 0
+            L 0 0
+            L 0 190
+            L 50 190
+            Z"
+            />
+          </svg>
+          <svg
+            viewBox="0 0 200 200"
+            class="cube right"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="
+            M 140 0
+            L 190 0
+            L 190 140
+            C 190 170, 160 200, 130 200
+            L 0 200
+            L 0 0
+            L 50 0
+            L 50 150
+            L 100 150
+            C 120 150, 140 130, 140 110
+            Z"
+            />
+          </svg>
+          <div class="arm top"></div>
+          <svg
+            viewBox="0 0 110 110"
+            class="inner top"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="
+            M 0 110
+            L 0 80
+            L 48 80
+            C 63 80, 78 65, 78 50
+            L 78 0
+            L 108 0
+            L 108 110
+            Z"
+            />
+          </svg>
+          <div class="inner_square top"></div>
+          <svg
+            viewBox="0 0 160 160"
+            class="inner left"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="
+            M 1 160
+            L 50 160
+            L 50 50
+            L 160 50
+            L 160 1
+            L 1 1
+            Z"
+            />
+          </svg>
+          <svg
+            viewBox="0 0 110 110"
+            class="inner right"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="
+            M 0 110
+            L 108 110
+            L 108 0
+            L 78 0
+            L 78 50
+            C 78 65, 63 80, 48 80
+            L 0 80
+            Z"
+            />
+          </svg>
+          <div class="inner_square right"></div>
+          <svg
+            viewBox="0 0 200 200"
+            class="bevel top"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="
+            M 0 10
+            L 62 10
+            L 62 140
+            L 110 140
+            C 125 140, 140 125, 140 110
+            L 140 10
+            L 200 10
+            L 200 140
+            C 200 170, 170 200, 140 200
+            L 0 200
+            Z"
+            />
+          </svg>
+          <svg
+            viewBox="0 0 200 200"
+            class="bevel right"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="
+            M 110 130
+            C 125 130, 140 115, 140 100
+            L 140 0
+            L 200 0
+            L 200 130
+            C 200 160, 170 190, 140 190
+            L 0 190
+            L 0 0
+            L 62 0
+            L 62 130
+            Z"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <script
+      type="text/javascript"
+      src="/app_static/2023-12-11--18-26-54--a996845/lib/soyutils.js"
+    ></script>
+
+    <script type="text/javascript" src="/app_static/2023-12-11--18-26-54--a996845/runtime.js"></script>
+    <script type="text/javascript" src="/app_static/2023-12-11--18-26-54--a996845/vendor.js"></script>
+    <script type="text/javascript" src="/app_static/2023-12-11--18-26-54--a996845/common.js"></script>
+    <script type="text/javascript" src="/app_static/2023-12-11--18-26-54--a996845/init.js"></script>
+  </body>
+</html>
