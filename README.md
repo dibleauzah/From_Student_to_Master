@@ -1,7 +1,6 @@
 # New Name (2024+): From Student to Master
 
 __ Old Name: Final-Public-2023
-__ Old/original intention: To be the final practice directory of 2023.
 
 __Old Goal (2023):
 I really hope this directory will be my last purely learning-purpose directory. Regardless, that--learning--is its purpose. Thanks for visiting!
