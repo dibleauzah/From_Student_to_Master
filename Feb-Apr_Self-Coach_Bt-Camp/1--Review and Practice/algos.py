@@ -11,7 +11,7 @@ input_string = "Hello world! :-)"
 print(reverse_string(input_string))
 # ?_Test result: Unsuccessful.
 
-#_#!=======================================================//
+#_#!-----------------------------------------------//
 # _#!_Challenge #-3 (of STM Day 1); Data Science: Student Average Scores
 
 # def calculate_average(scores):
