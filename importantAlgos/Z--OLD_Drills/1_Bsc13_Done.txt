@@ -1,4 +1,83 @@
+**__Mar 13, 2024 Practice:__**
+
+
+>> Plan: The first 4.
+
+_____>>> Next will be the remaining 9, in 2 sets of 5 and 4.
+
+1) 
+
+//!_No.--1: Print 1-255
+
+for (let i = 1; i <= 255; i++){
+	console.log(i);
+}
+
+//========================//
+
+2)
+
+//!_No.--2 Print Odds 1 - 255
+
+function printOdds1To255 (){
+	for (let i = 1; i <= 255; i++){
+		if (i % 2 !== 0) {
+		console.log(i);
+	}
+}
+
+//========================//
+
+3)
+
+//!_No.--3  Iterate through a given array, backwards, printing each value:
+
+arr = [1, 2, 3];
+
+function arrayValDecrease (){
+	for (let i = arr.length; i >= 0; i--){
+		console.log(arr[i]);
+	}
+}
+
+//========================//
+
+4)
+
+//!_No.--4 Given an array, print the minimum element value:
+
+let arr = [-90, -100, 60, 20, 4000];
+
+let min = Infinity;
+
+function findMin (arr){
+	for (let i = 0; i < arr.length; i++){
+	if (min > arr[i]){
+		min = arr[i];
+	}
+}
+return min;
+}
+console.log(findMin(arr));
+
+//
+//=========================================================================//
+**__Rough / Random Notes:__**
+
+>> Dvorak ("Dee-vow-zhak")
+___>>> 6:08: = :-) 
+
+
+//=========================================================================//
+
+**__Creation-Date: Circa 2024__**
+
+//
+
 Use This Site To Test: https://playcode.io/
+
+//
+
 
 //!_No.--1: Print 1-255:
 
