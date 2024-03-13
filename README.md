@@ -7,6 +7,3 @@ I really hope this directory will be my last purely learning-purpose directory. 
 
 __New Goal (2024+):
 "Simple," really. To go from coding and data-sci student, to Master! And yes, I know it's somewhat "over-ambitious." But I am also certain that it is possible!
-
-Oct-Dec 2023 Code-Learning Journal (**VERY IMPORTANT [!]**: Left-click and open in new tab!); Link: 
-https://rb.gy/fwggr
