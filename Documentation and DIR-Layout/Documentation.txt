@@ -1,8 +1,65 @@
+
+_________________________Master Document For "From Student to Master (STM)" Project_________________________
+
+//
+//
+
+____Important Notes: 
+
+___________>> Location(s) of data-sci DIRs and projects: 
+
+___________//_________>>> 1) DIR Name: "publicProjectsAndSnippets"
+
+___________//_________>>> 2) DIR Name // Path:
+ 
+___________"Feb-Apr_Self-Coach_Bt-Camp" ___>___ "Z--(Mini-)Projects" ___>___ "2--Data-Sci"
+
+
+//
+//
+
 ___Refer Also to This Google-Document: https://rb.gy/am3nf 
 ___Either document can be used--i.e., that (^^) or the current one--the notes below.
 
+//
+//
 
-Sept 14:
+March 14, 2024: Continuation of Overall STM
+
+=======>> Goals / Brainstorming:
+
+____>> 1)--Algos: 
+//!_____//_____Very Important (!):
+
+
+___________I--3 of "Basic 13"
+//!_No. 5--Given an array, find and print its maximum.
+//!_No. 6--Analyze an array's values and print the average.
+//!_No. 7--Create an array with all the odd integers between 1 and 255 (inclusive).
+
+___________II--2 of "CoderByte 18"
+//!_No. 5--"Is N a Prime?"
+//!_No. 6--"Implement Map and Filter."
+
+//-------------------------------------//\\//-------------------------------------//
+
+____>> 2)--Snippets of Vanilla JS--& HTML & CSS; to be converted to React later ASAP
+
+____>> 3)--"Finish What You Start (!)" 1: HEX 
+
+____>> 4)--"Finish What You Start (!)" 2: PM App 
+
+____>> 5)--"Finish What You Start (!)" 3: Thematic review of coding-learning resources
+
+____>> 6)--Data-Sci I: The collaborative project w- ChatGPT
+
+____>> 7)--Data-Sci II: Planning for success.
+
+
+=================================================================================//
+
+
+Sept 14, 2023:
 
 >> Launch of project! :-)
 
