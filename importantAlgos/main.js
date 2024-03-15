@@ -1,4 +1,4 @@
-//!_Date: Sept 15
+//!_Date: Sept 15, 2023
 
 //?_"Min, Max, and Avg."
 //?_Given an array, print the max, min and average values for that array.
@@ -93,13 +93,13 @@
 //         let userObj = {
 //             'email': info[1] || null,
 //             'age': parseInt(info[2]) || null,
-//             'occupation': info[3] || null 
+//             'occupation': info[3] || null
 //        };
 //        obj[info[0]] = userObj;
 //     }
 //     return obj;
 // }
-// let s = "Daniel,me@test.com,56,Coder John,,,Teacher Michael,mike@test.com,,"; 
+// let s = "Daniel,me@test.com,56,Coder John,,,Teacher Michael,mike@test.com,,";
 // let people = convert(s);
 // //?_Testing: suspended.
 // people['Daniel']['age']; // => 56 people['Michael']['occupation'] // => null
@@ -108,7 +108,7 @@
 //!_End of Day
 //!-------------------------------//
 
-//!_Date: Oct 2
+//!_Date: Oct 2, 2023
 //!_Agenda 1; approx. 5:45 PM: "Min, Max, and Avg"
 //!_The intention is for me to do more coding before 11:59 PM today. But in the meantime, I can at least accomplish this "warm-up," the "Min, Max, and Avg" algo.
 
@@ -136,3 +136,4 @@
 //!_End of Day
 //!-------------------------------//
 
+//*_IMPORTANT NOTE: This file's work was concluded on Oct 2, 2023. The algo-practice has now moved to various other files, including/especially the "importantAlgos" > "0waxOnWaxOff"s, and "Feb-Apr_Self-Coach..." > "1--Review and Practice" sub-DIRs.

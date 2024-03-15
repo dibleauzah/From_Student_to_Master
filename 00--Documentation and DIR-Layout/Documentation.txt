@@ -58,11 +58,31 @@ ____>> 7)--Data-Sci II: Planning for success.
 
 =================================================================================//
 
+March 15, 2024: Conclusion of Current 24-HR Timeframe Session(s)*^
+>> *^Note: The current 24-HR timeframe ends at 11:59 AM, today--Mar 15.
+>> Time of update--i.e., this note: approx 6 AM EAT (March 15, 2024). 
+
+=========>> Goals / Accomplishments:
+
+____>> 1)--General/"vague"(-ish): Maintenance of momentum, "tunnel-vision"/focus, 
+and continuous clarification/crystallization/consolidation of knowledge and skills. 
+
+
+____>> 2)--Continuation of "Basic 13" algos from 8 to 13
+
+
+____>> 3)--Update of current PHLASK ticket and relevant PR.
+ 
+____//____ Link for details: 
+https://github.com/phlask/phlask-map/issues/210
+
+
+=================================================================================//
+
 
 Sept 14, 2023:
 
 >> Launch of project! :-)
-
 
 //----------x----------//
 Sept 15 to Sept 20:
