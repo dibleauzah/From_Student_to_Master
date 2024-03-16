@@ -1,20 +1,16 @@
 
-_________________________Master Document For "From Student to Master (STM)" Project_________________________
+//__ZX-T1__// _________________________Master Document For "From Student to Master (STM)" Project_________________________//
+//__ZX-T2__// ______________Important Note(s): THE DOCUMENT'S LAUNCHING NOTES ARE LOCATED FARTHER BELOW, AT LINE //__ZX-T_*_Z_*__// ______________//
 
 //
 //
 
 ____Important Notes: 
-
 ___________>> Location(s) of data-sci DIRs and projects: 
-
 ___________//_________>>> 1) DIR Name: "publicProjectsAndSnippets"
-
 ___________//_________>>> 2) DIR Name // Path:
- 
+// 
 ___________"Feb-Apr_Self-Coach_Bt-Camp" ___>___ "Z--(Mini-)Projects" ___>___ "2--Data-Sci"
-
-
 //
 //
 
@@ -24,7 +20,63 @@ ___Either document can be used--i.e., that (^^) or the current one--the notes be
 //
 //
 
-March 14, 2024: Continuation of Overall STM
+=================================================================================//
+=================================================================================//
+//
+//
+>> March 16, 2024: Continuation of Overall STM
+___>>> Day 5
+
+
+=========>> Goals / Accomplishments:
+
+____>> 1) A minimum of 3 algos, of the remaining 9 of the "CoderByte-18 [_ online portal: https://coderbyte.com/ _]"
+
+____>> 2) Trying looking for a PDF doc of HackerRank's Q & As.
+_________//___==>>> #-10__: "...Words With 3 Cont.- Vowels"
+_________//___==>>> #-11__: "...Adjacent Matching Characters"
+_________//___==>>> #-11__: "...Majority Element (> n/2)"
+
+
+____>> 3) Writing copy for the PM app.
+
+
+=================================================================================//
+=================================================================================//
+//
+//
+
+>> March 15, 2024: Conclusion of Current 24-HR Timeframe Session(s)*^
+___>>> Day 4
+
+//
+//
+
+>> *^Note: The current 24-HR timeframe ends at 11:59 AM, today--Mar 15.
+>> Time of update--i.e., this note: approx 6 AM EAT (March 15, 2024). 
+
+=========>> Goals / Accomplishments:
+
+____>> 1)--General/"vague"(-ish): Maintenance of momentum, "tunnel-vision"/focus, 
+and continuous clarification/crystallization/consolidation of knowledge and skills. 
+
+
+____>> 2)--Continuation of "Basic 13" algos from 8 to 13
+
+
+____>> 3)--Update of current PHLASK ticket and relevant PR.
+ 
+____//____ Link for details: 
+https://github.com/phlask/phlask-map/issues/210
+
+
+=================================================================================//
+
+>> March 14, 2024:
+___>>> Day 3
+
+___________________________>> **__[**__FINAL__**] RE-Launch of project! :-) __** ___________________________
+
 
 =======>> Goals / Brainstorming:
 
@@ -54,35 +106,18 @@ ____>> 5)--"Finish What You Start (!)" 3: Thematic review of coding-learning res
 ____>> 6)--Data-Sci I: The collaborative project w- ChatGPT
 
 ____>> 7)--Data-Sci II: Planning for success.
+//
+//
 
 
 =================================================================================//
-
-March 15, 2024: Conclusion of Current 24-HR Timeframe Session(s)*^
->> *^Note: The current 24-HR timeframe ends at 11:59 AM, today--Mar 15.
->> Time of update--i.e., this note: approx 6 AM EAT (March 15, 2024). 
-
-=========>> Goals / Accomplishments:
-
-____>> 1)--General/"vague"(-ish): Maintenance of momentum, "tunnel-vision"/focus, 
-and continuous clarification/crystallization/consolidation of knowledge and skills. 
-
-
-____>> 2)--Continuation of "Basic 13" algos from 8 to 13
-
-
-____>> 3)--Update of current PHLASK ticket and relevant PR.
- 
-____//____ Link for details: 
-https://github.com/phlask/phlask-map/issues/210
-
-
 =================================================================================//
+//
+//
 
+//__ZX-T_*_Z_*__//__________Sept 14, 2023:_________//
+//________________________>> [ORIGINAL] Launch of project! :-) ________________________//
 
-Sept 14, 2023:
-
->> Launch of project! :-)
 
 //----------x----------//
 Sept 15 to Sept 20:
