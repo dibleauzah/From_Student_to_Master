@@ -24,6 +24,32 @@ ___Either document can be used--i.e., that (^^) or the current one--the notes be
 =================================================================================//
 //
 //
+>> March 17, 2024: Continuation of Overall STM
+___>>> Day 6
+
+
+=========>> Goals / Accomplishments:
+
+____>> 1) A minimum of 3 algos, of the remaining 9 of the "CoderByte-18 [_ online portal: https://coderbyte.com/ _]"
+_________//___Status: Partially-done / accomplished! :-)
+
+_________//___==>>> #-10__: "...Words With 3 Cont.- Vowels"======== DONE
+//
+_________//___==>>> #-11__: "...Adjacent Matching Characters" ===== INC
+_________//___==>>> #-11__: "...Majority Element (> n/2)" ========= INC 
+//
+
+____>> 2) Trying looking for a PDF doc of HackerRank's Q & As: ACCOMPLISHED! :-) Repo forked: 
+https://github.com/dibleauzah/hackerrank-ANSWERS 
+
+
+____>> 3) Writing copy for the PM app: In Progress as of approx. 11:57 PM, Mar 17...
+
+=================================================================================//
+=================================================================================//
+
+//
+//
 >> March 16, 2024: Continuation of Overall STM
 ___>>> Day 5
 
