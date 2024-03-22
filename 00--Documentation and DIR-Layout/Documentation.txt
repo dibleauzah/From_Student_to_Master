@@ -24,8 +24,45 @@ ___Either document can be used--i.e., that (^^) or the current one--the notes be
 =================================================================================//
 //
 //
->> March 17, 2024: Continuation of Overall STM
-___>>> Day 6
+>> March 22 to 25 (or earlier), 2024: Continuation of Overall STM
+
+___>>> Day 8
+
+=========>> Goals / Accomplishments:
+
+____>> 1) Writing copy for the PM app
+
+-------------//___>>> 2)-i--Writing about "risk" given its sensitivity as a PM concept;
+-------------//___>>> 2)-ii--Outlining other upcoming topics; and...
+-------------//___>>> 2)-iii--Looking up how to use CSS for diving an HTML page into blocks.
+//
+//
+
+____>> 2) General review, including the (/of): ... 
+
+//
+//
+
+
+'''
+PDF doc of HackerRank's Q & As: ACCOMPLISHED! :-) Repo forked: 
+https://github.com/dibleauzah/hackerrank-ANSWERS 
+'''
+
+____>> 3) Other; e.g. (random order, of medium-to-low priority level):
+
+-------------//___>>> 3)-i--Helping new PHLASK devs (as best as possible);
+-------------//___>>> 3)-ii--Reviewing Grepper answers; and...
+-------------//___>>> 3)-iii--Other: be detailed.
+
+=================================================================================//
+=================================================================================//
+
+//
+//
+
+>> March 17 to 18, 2024: Continuation of Overall STM
+___>>> Days 6 and 7
 
 
 =========>> Goals / Accomplishments:
@@ -36,7 +73,7 @@ _________//___Status: Partially-done / accomplished! :-)
 _________//___==>>> #-10__: "...Words With 3 Cont.- Vowels"======== DONE
 //
 _________//___==>>> #-11__: "...Adjacent Matching Characters" ===== INC
-_________//___==>>> #-11__: "...Majority Element (> n/2)" ========= INC 
+_________//___==>>> #-12__: "...Majority Element (> n/2)" ========= INC 
 //
 
 ____>> 2) Trying looking for a PDF doc of HackerRank's Q & As: ACCOMPLISHED! :-) Repo forked: 

@@ -44,3 +44,16 @@ import re
 # ?_Rough time for completion: 5 to 10 mins. Good job, self/Se*_i_*f! ;-)
 
 #!-----------------------------------------------//
+
+#!_Day 7 of STM Self-Challenge: Mar 18 (Mon), 2024
+#!_Challenge #-11__: "...Adjacent Matching Characters"
+#!_Challenge #-12__: "...Majority Element (> n/2)"
+
+
+#!_Challenge #-11__:
+
+
+#!_Challenge #-12__:
+
+
+#!-----------------------------------------------//
