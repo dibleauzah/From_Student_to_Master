@@ -49,6 +49,18 @@ import re
 #!_Challenge #-11__: "...Adjacent Matching Characters"
 #!_Challenge #-12__: "...Majority Element (> n/2)"
 
+#!_Challenge #-11__:
+#//*_Carried forward to day 9.
+
+#!_Challenge #-12__:
+#//*_Carried forward to day 9.
+
+#!-----------------------------------------------//
+
+#*_Day 9 of STM Self-Challenge: Mar 26 (Tue), 2024
+#!_Challenge #-11__: "...Adjacent Matching Characters"
+#!_Challenge #-12__: "...Majority Element (> n/2)"
+#?_Tests optional. In progress as of 2:16 AM (EAT), Mar 26.
 
 #!_Challenge #-11__:
 
