@@ -61,11 +61,12 @@ import re
 #!_Challenge #-11__: "...Adjacent Matching Characters"
 #!_Challenge #-12__: "...Majority Element (> n/2)"
 #?_Tests optional. In progress as of 2:16 AM (EAT), Mar 26.
+#//*_Suspended again. To be carried forward to a future date, t.b-determined later.
 
 #!_Challenge #-11__:
-
+#?_Add Code Here and Lines Below.
 
 #!_Challenge #-12__:
-
+#?_Add Code Here and Lines Below.
 
 #!-----------------------------------------------//
