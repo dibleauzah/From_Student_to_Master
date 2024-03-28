@@ -26,7 +26,7 @@
 #!_Day 5 of STM Self-Challenge: Mar 16 (Sat), 2024
 #!_Challenge #-10__: "...Words With 3 Cont.- Vowels"
 
-import re
+# import re
 # ?_Makes sure to look this up later: is the "import **_re_** a feature/library of an older version of Python, or is...". "NM," actually.
 
 # def threeVowels (string):
@@ -69,4 +69,69 @@ import re
 #!_Challenge #-12__:
 #?_Add Code Here and Lines Below.
 
+#!-----------------------------------------------//
+
+#*_Day 10 of STM Self-Challenge: Mar 28 (Thr), 2024
+#!_Challenge #-11__: "...Adjacent Matching Characters"
+#!_Challenge #-12__: "...Majority Element (> n/2)"
+
+#!_Challenge #-11__:
+#?_Add Code Here and Lines Below.
+
+# def removePairs(string):
+#     result = ''
+#     i = 0
+
+#     while i < len(string):
+#         if i == len(string) - 1:
+#             result += string[i]
+#         elif string[i] != string[i + 1]:
+#             result += string[i]
+#         else:
+#             i += 1
+#         i += 1
+#     return
+
+# removePairs("aaagykkok")
+#?_Test Notes:
+#?____1) Test failed.
+#?____2) Details / error msg:
+# Traceback (most recent call last):
+#   File "/Users/seif/Desktop/From_Student_to_Master/importantAlgos/0wxOnWaxOff.py", line 95, in <module>
+#     removePairs(aaagykkok)
+# NameError: name 'aaagykkok' is not defined
+
+#!_Challenge #-12__:
+#?_Add Code Here and Lines Below.
+
+# import math 
+
+# def majorityElement(arr):
+    
+#     candidate = None
+#     count = 0
+
+
+#     for i in range(0, len(arr)):
+#         if candidate is None or count == 0:
+#             candidate = 1
+#             count = 1
+#         elif arr[i] == candidate:            
+#             count += 1
+#         else:
+#             count -= 1
+
+#     count = 0
+#     for el in arr:
+#         if el == candidate:
+#             count += 1
+
+#         if count > math.floor(len(arr) / 2):
+#             return candidate
+#         else:
+#             return None 
+
+#?_Test Notes:
+#?_Test suspended for today--i.e., not done.
+                
 #!-----------------------------------------------//
