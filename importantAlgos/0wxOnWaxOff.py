@@ -12,7 +12,6 @@
 #     for i in arr:
 #         applied = fn(i)
 #         result.append(applied)
-
 #     print(result)
 
 # square = lambda x: x * x
@@ -105,13 +104,10 @@
 #?_Add Code Here and Lines Below.
 
 # import math 
-
 # def majorityElement(arr):
     
 #     candidate = None
 #     count = 0
-
-
 #     for i in range(0, len(arr)):
 #         if candidate is None or count == 0:
 #             candidate = 1
@@ -120,7 +116,6 @@
 #             count += 1
 #         else:
 #             count -= 1
-
 #     count = 0
 #     for el in arr:
 #         if el == candidate:
@@ -130,8 +125,57 @@
 #             return candidate
 #         else:
 #             return None 
-
 #?_Test Notes:
 #?_Test suspended for today--i.e., not done.
                 
+#!-----------------------------------------------//
+
+#*_Day 11 of STM Self-Challenge: Mar 31 (Sun), 2024
+#!_Challenge #-13__: "Switching light bulbs"
+
+'''
+**_Problem Details_**
+
+#!_Scenario:
+___>> There are 100 light bulbs, numbered 1 to 100, lined up, and all set to "Off" initially. There are also 100 people, each numbered 1 to 100 as well. 
+___>> Person 1 will go through all the light bulbs and flip the switch, turning all of them on. 
+___>> Then person 2 will go through the switches, turning each other 2nd bulb off--i.e., 2, 4, 6, 8, etc.
+___>> Then person 3 will go and flip to "Off" position the 3rd, 6th, 9th, ...(etc.) bulbs.
+
+#!_Questions:
+___>> How many light bulbs will be on after 100 people have gone through them?
+___>> What is that status of a given "N_th"--e.g. 34th, or 62nd, etc.; is it "On," or "Off"?
+___>> How many people need to go through the line of bulbs until precisely "K" bulbs are set to on?
+
+#!_Game-Plan / Strategy:
+#?_According the Book...
+>> To answer these questions, we need a function to iterate through all "N" buls and perform each operation for every person labelled 1 to N. 
+>> We'll set up an array of N elements, all set to "FALSE"--i.e., representing the light-bulb in the "Off" position.
+>> Then we'll loop through every person--1 to "N"--and within that loop, create another loop that will multiply each person's number by a particular ["i_th" / bulb] number; i.e.:
+___>>> For current iteration, i = 1, 2, 3, 4, 5...etc.
+___>>> ________''_________, i = 2, 4, 6, 8...etc.  
+___>>> ________''_________, i = 3, 6, 9, 12...etc. 
+
+#?_My own consideration, to be solved/answered later; what's the run-time of the above solution--i.e., re: "0 of N"? And if the runtime is inefficient, can(n't) we do better? Random brainstormed-solution: how about using a hash table?
+'''
+
+def lightBulb(N):
+
+    #?_Create N bulbs, set to "Off".
+    lightbulbs = [False for i in range(0, N)]
+
+    #?_Each person i sets each Kth bulb to "On" or "Off" position; k = 2 * i, 3 * i, etc. 
+    #!_Very Important (!): "w" is merely a counter symbol! The letters/symbols that matter more importantly are k--the current/given person, and i--the current ith-iterative system--i.e., 1 += 1, or 2 (i.e. 2, 4, 6, etc.), or 3(i.e. 3, 6, 9, etc.). 
+    
+    for i in range(1, N + 1):
+        w = 1
+        k = w * i
+        while k <= N:
+            lightbulbs[k - 1] = not lightbulbs[k - 1]
+            w += 1
+            k = w * i 
+    
+    return lightbulbs
+#?_Test suspended for today--i.e., not done.
+ 
 #!-----------------------------------------------//

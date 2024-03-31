@@ -20,9 +20,33 @@ ___Either document can be used--i.e., that (^^) or the current one--the notes be
 //
 //
 
+//
+//
+=================================================================================//
+=================================================================================//
+//
+//
+>> March 31 to April 5 (+/-), 2024: Continuation of Overall STM 
+//
+
+=========>> Goals:
+//
+____>> I) "Stay On The Path!" 
+-------------//___>>> 1)-a--Number 13 of "CoderByte-18": "Switching Light Bulbs" via "0wxOnWaxOff.py" file.
+
+____>> II) Writing copy for the PM app
+-------------//___>>> 2)-a--Writing about "risk" given its sensitivity as a PM concept;
+-------------//___>>> 2)-b--Outlining other upcoming topics; and...
+-------------//___>>> 2)-c--Looking up how to use CSS for diving an HTML page into blocks.
+
+____>> III) Again, "Stay On The Path (!)": Finish, or **continue** what you've already started, before moving on to other goals.
+//
+-------------//___>>> 1)-a--TDL (ie. To-Do List)-review
+-------------//___>>> 2)-b--Mindfulness.
 
 //
 //
+
 =================================================================================//
 =================================================================================//
 //
