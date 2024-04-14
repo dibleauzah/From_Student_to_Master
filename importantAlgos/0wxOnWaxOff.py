@@ -129,7 +129,6 @@
 #?_Test suspended for today--i.e., not done.
                 
 #!-----------------------------------------------//
-
 #*_Day 11 of STM Self-Challenge: Mar 31 (Sun), 2024
 #!_Challenge #-13__: "Switching light bulbs"
 
@@ -160,22 +159,65 @@ ___>>> ________''_________, i = 3, 6, 9, 12...etc.
 '''
 
 def lightBulb(N):
-
     #?_Create N bulbs, set to "Off".
     lightbulbs = [False for i in range(0, N)]
 
     #?_Each person i sets each Kth bulb to "On" or "Off" position; k = 2 * i, 3 * i, etc. 
-    #!_Very Important (!): "w" is merely a counter symbol! The letters/symbols that matter more importantly are k--the current/given person, and i--the current ith-iterative system--i.e., 1 += 1, or 2 (i.e. 2, 4, 6, etc.), or 3(i.e. 3, 6, 9, etc.). 
+    #!_Very Important (!): "w" is merely a counter symbol! The letters/symbols that matter more importantly are k--the current/given person, and i--the current ith-iterative system--i.e., 1 += 1, or 2 (i.e. 2, 4, 6, etc.), or 3(i.e. 3, 6, 9, etc.).     
+    # for i in range(1, N + 1):
+    #     w = 1
+    #     k = w * i
+    #     while k <= N:
+    #         lightbulbs[k - 1] = not lightbulbs[k - 1]
+    #         w += 1
+    #         k = w * i 
     
-    for i in range(1, N + 1):
-        w = 1
-        k = w * i
-        while k <= N:
-            lightbulbs[k - 1] = not lightbulbs[k - 1]
-            w += 1
-            k = w * i 
-    
-    return lightbulbs
+    # return lightbulbs
 #?_Test suspended for today--i.e., not done.
- 
+                
+#!-----------------------------------------------//
+
+#*_Day 12 of STM Self-Challenge: April 14, 2024
+#!_1)--Challenge #-14__: "List of integers that overlap in 2 ranges".
+#!_2)--Challenge #-15__: "Return mean, median, and mode of an array".
+#*_//==========//
+
+#!_1)
+# def overLapperNumbers(range1, range2):
+#     overlap = []
+#     #?_Check whether each number within range 1 is also within the numbers of range 2.
+#     for i in range(range1[0], range1[1] + 1):
+#         if i >= range2[0] and i <= range2[1]:
+#             overlap.append(i)    
+#     return overlap
+#?_Functionality Test(s): Suspended for the day.
+
+#!_2)
+
+# def meanMedianMode(arr):
+    
+#     #?_For mean, use the appropriate formula; i.e., sum of all arr-items / array-length.
+#     mean = sum(arr) / float(len(arr))
+
+#     #?_For median: Sort the array and return the middle element.
+
+#     arr = sorted(arr)
+#     median = arr[int(len(arr) / 2)]
+
+#     #?_Mode: Store all elements in a hash table; keep a count, and keep updating the largest value of the count.
+
+#     mode = None
+#     hashTable = {}
+#     for i in arr:
+#         if i in hashTable:
+#             hashTable[i] += 1
+#         else:
+#             hashTable[i] = 1
+#         if mode is None or hashTable[i] > mode:
+#             mode = i 
+    
+#     return{'mean': mean, 'median': median, 'mode': mode}
+
+#?_Test suspended.
+
 #!-----------------------------------------------//
