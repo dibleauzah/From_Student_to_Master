@@ -49,33 +49,33 @@
 #!_Challenge #-12__: "...Majority Element (> n/2)"
 
 #!_Challenge #-11__:
-#//*_Carried forward to day 9.
+# //*_Carried forward to day 9.
 
 #!_Challenge #-12__:
-#//*_Carried forward to day 9.
+# //*_Carried forward to day 9.
 
 #!-----------------------------------------------//
 
-#*_Day 9 of STM Self-Challenge: Mar 26 (Tue), 2024
+# *_Day 9 of STM Self-Challenge: Mar 26 (Tue), 2024
 #!_Challenge #-11__: "...Adjacent Matching Characters"
 #!_Challenge #-12__: "...Majority Element (> n/2)"
-#?_Tests optional. In progress as of 2:16 AM (EAT), Mar 26.
-#//*_Suspended again. To be carried forward to a future date, t.b-determined later.
+# ?_Tests optional. In progress as of 2:16 AM (EAT), Mar 26.
+# //*_Suspended again. To be carried forward to a future date, t.b-determined later.
 
 #!_Challenge #-11__:
-#?_Add Code Here and Lines Below.
+# ?_Add Code Here and Lines Below.
 
 #!_Challenge #-12__:
-#?_Add Code Here and Lines Below.
+# ?_Add Code Here and Lines Below.
 
 #!-----------------------------------------------//
 
-#*_Day 10 of STM Self-Challenge: Mar 28 (Thr), 2024
+# *_Day 10 of STM Self-Challenge: Mar 28 (Thr), 2024
 #!_Challenge #-11__: "...Adjacent Matching Characters"
 #!_Challenge #-12__: "...Majority Element (> n/2)"
 
 #!_Challenge #-11__:
-#?_Add Code Here and Lines Below.
+# ?_Add Code Here and Lines Below.
 
 # def removePairs(string):
 #     result = ''
@@ -92,27 +92,27 @@
 #     return
 
 # removePairs("aaagykkok")
-#?_Test Notes:
-#?____1) Test failed.
-#?____2) Details / error msg:
+# ?_Test Notes:
+# ?____1) Test failed.
+# ?____2) Details / error msg:
 # Traceback (most recent call last):
 #   File "/Users/seif/Desktop/From_Student_to_Master/importantAlgos/0wxOnWaxOff.py", line 95, in <module>
 #     removePairs(aaagykkok)
 # NameError: name 'aaagykkok' is not defined
 
 #!_Challenge #-12__:
-#?_Add Code Here and Lines Below.
+# ?_Add Code Here and Lines Below.
 
-# import math 
+# import math
 # def majorityElement(arr):
-    
+
 #     candidate = None
 #     count = 0
 #     for i in range(0, len(arr)):
 #         if candidate is None or count == 0:
 #             candidate = 1
 #             count = 1
-#         elif arr[i] == candidate:            
+#         elif arr[i] == candidate:
 #             count += 1
 #         else:
 #             count -= 1
@@ -124,12 +124,12 @@
 #         if count > math.floor(len(arr) / 2):
 #             return candidate
 #         else:
-#             return None 
-#?_Test Notes:
-#?_Test suspended for today--i.e., not done.
-                
+#             return None
+# ?_Test Notes:
+# ?_Test suspended for today--i.e., not done.
+
 #!-----------------------------------------------//
-#*_Day 11 of STM Self-Challenge: Mar 31 (Sun), 2024
+# *_Day 11 of STM Self-Challenge: Mar 31 (Sun), 2024
 #!_Challenge #-13__: "Switching light bulbs"
 
 '''
@@ -158,29 +158,30 @@ ___>>> ________''_________, i = 3, 6, 9, 12...etc.
 #?_My own consideration, to be solved/answered later; what's the run-time of the above solution--i.e., re: "0 of N"? And if the runtime is inefficient, can(n't) we do better? Random brainstormed-solution: how about using a hash table?
 '''
 
+
 def lightBulb(N):
-    #?_Create N bulbs, set to "Off".
+    # ?_Create N bulbs, set to "Off".
     lightbulbs = [False for i in range(0, N)]
 
-    #?_Each person i sets each Kth bulb to "On" or "Off" position; k = 2 * i, 3 * i, etc. 
-    #!_Very Important (!): "w" is merely a counter symbol! The letters/symbols that matter more importantly are k--the current/given person, and i--the current ith-iterative system--i.e., 1 += 1, or 2 (i.e. 2, 4, 6, etc.), or 3(i.e. 3, 6, 9, etc.).     
+    # ?_Each person i sets each Kth bulb to "On" or "Off" position; k = 2 * i, 3 * i, etc.
+    #!_Very Important (!): "w" is merely a counter symbol! The letters/symbols that matter more importantly are k--the current/given person, and i--the current ith-iterative system--i.e., 1 += 1, or 2 (i.e. 2, 4, 6, etc.), or 3(i.e. 3, 6, 9, etc.).
     # for i in range(1, N + 1):
     #     w = 1
     #     k = w * i
     #     while k <= N:
     #         lightbulbs[k - 1] = not lightbulbs[k - 1]
     #         w += 1
-    #         k = w * i 
-    
+    #         k = w * i
+
     # return lightbulbs
-#?_Test suspended for today--i.e., not done.
-                
+# ?_Test suspended for today--i.e., not done.
+
 #!-----------------------------------------------//
 
-#*_Day 12 of STM Self-Challenge: April 14, 2024
+# *_Day 12 of STM Self-Challenge: April 14, 2024
 #!_1)--Challenge #-14__: "List of integers that overlap in 2 ranges".
 #!_2)--Challenge #-15__: "Return mean, median, and mode of an array".
-#*_//==========//
+# *_//==========//
 
 #!_1)
 # def overLapperNumbers(range1, range2):
@@ -188,14 +189,14 @@ def lightBulb(N):
 #     #?_Check whether each number within range 1 is also within the numbers of range 2.
 #     for i in range(range1[0], range1[1] + 1):
 #         if i >= range2[0] and i <= range2[1]:
-#             overlap.append(i)    
+#             overlap.append(i)
 #     return overlap
-#?_Functionality Test(s): Suspended for the day.
+# ?_Functionality Test(s): Suspended for the day.
 
 #!_2)
 
 # def meanMedianMode(arr):
-    
+
 #     #?_For mean, use the appropriate formula; i.e., sum of all arr-items / array-length.
 #     mean = sum(arr) / float(len(arr))
 
@@ -214,10 +215,45 @@ def lightBulb(N):
 #         else:
 #             hashTable[i] = 1
 #         if mode is None or hashTable[i] > mode:
-#             mode = i 
-    
+#             mode = i
+
 #     return{'mean': mean, 'median': median, 'mode': mode}
 
-#?_Test suspended.
+# ?_Test suspended.
 
+#!-----------------------------------------------//
+
+# *_Day 13 of STM Self-Challenge: April 15, 2024
+#!_1)--Challenge #-16__: "Encode consonants within a string".
+# *_//==========//
+
+#!_1)
+
+# def encodeConsonats(string):
+
+#     result = ''
+
+#     #?_Store an array of vowels for later use:
+#     vowels = ['a', 'e', 'i', 'o', 'u']
+
+#     #?_Loop through the entire string:
+#     for i in string:
+#         #?_Special case for 'z':
+#         if i == 'z':
+#             result += 'b'
+#             break
+#         #?_If letter is not a vowel, or is a space:
+#         elif i not in vowels and i != ' ':
+#             #?_Convert each letter to its character code.
+#             newCode = ord(i) + 1
+#             #?_Perform a check to ensure the new letter is not a vowel; does it exist in our earlier-saved array?
+#             if chr(newCode) in vowels:
+#                 newCode += 1
+#             #?_Get new letter and add it to the new string:
+#             result += chr(newCode)
+#         #?_Otherwise, the character is a vowel or a space.
+#         else:
+#             result += i
+#     return result
+# ?_Functionality Test(s): Suspended for the day.
 #!-----------------------------------------------//
