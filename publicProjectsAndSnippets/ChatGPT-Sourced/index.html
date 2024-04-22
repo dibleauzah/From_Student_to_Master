@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Ensure page takes up at least the full viewport height */
+      }
+
+      .menu {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .menu .links a,
+      .menu .auth a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 10px;
+      }
+
+      .content {
+        flex-grow: 1; /* Allow content to grow to fill remaining space */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .squares {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        width: 100%; /* Ensure squares take up full width */
+        justify-content: center; /* Center squares horizontally */
+      }
+
+      .square {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+      }
+
+      /* Add color classes */
+      .red {
+        background-color: red;
+      }
+      .orange {
+        background-color: orange;
+      }
+      .yellow {
+        background-color: yellow;
+      }
+      .green {
+        background-color: green;
+      }
+      .blue {
+        background-color: blue;
+      }
+      .indigo {
+        background-color: indigo;
+      }
+      .violet {
+        background-color: violet;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="menu">
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="auth">
+        <a href="#">Login</a>
+        <a href="#">Create Profile</a>
+      </div>
+    </div>
+
+    <div class="content">
+
+      <h1 align="center1"> My College Network </h1>
+
+      <h3 align="center3"> Still Not What I Wanted! [Face-Palm Emoji] // Moral of the Story: If you want something done right, strive to do it with the right skill-set. DON'T rely on AI to do the hard work for you! </h3>
+
+      <div class="squares">
+        <div class="square red"></div>
+        <div class="square orange"></div>
+        <div class="square yellow"></div>
+        <div class="square green"></div>
+        <div class="square blue"></div>
+        <div class="square indigo"></div>
+        <div class="square violet"></div>
+      </div>
+      <div class="squares">
+        <div class="square red"></div>
+        <div class="square orange"></div>
+        <div class="square yellow"></div>
+        <div class="square green"></div>
+        <div class="square blue"></div>
+        <div class="square indigo"></div>
+        <div class="square violet"></div>
+      </div>
+    </div>
+
+    <footer>&copy; 2024 Your Website Name</footer>
+  </body>
+</html>
