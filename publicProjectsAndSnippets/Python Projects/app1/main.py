@@ -1,3 +1,6 @@
+
+#!_Mini-Project or Practice-Sesh 1
+
 # import random
 
 # # Generate a random number between 1 and 100
@@ -27,3 +30,34 @@
 #?_Other note(s):
 #_____#*_Date of attempt: April 15, 2024. 
 #_____#*_"Moving-Forward" Resolution: I'll just have to try it again later.
+
+#!_//===============================================================//
+
+#!_Mini-Project or Practice-Sesh 2
+#!_Date: April 23, 2024. 
+
+#?_Testing basic data-sci concepts: ...
+
+# import pandas 
+# import skickitlearn 
+# import math 
+
+# def justTesting (X):
+#    var anyGiven = number = random.randint(1, 100):
+
+# print (justTesting[anyGiven]) 
+
+#?_Test result: ___Failure on purpose.___
+#?_Details (Added Below): 
+
+# [Running] python -u "/Users/seif/Desktop/From_Student_to_Master/publicProjectsAndSnippets/Python Projects/app1/main.py"
+#   File "/Users/seif/Desktop/From_Student_to_Master/publicProjectsAndSnippets/Python Projects/app1/main.py", line 46
+#     var anyGiven = number = random.randint(1, 100):
+#                ^
+# SyntaxError: invalid syntax
+
+# [Done] exited with code=1 in 0.216 seconds
+
+#!_//===============================================================//
+
+
