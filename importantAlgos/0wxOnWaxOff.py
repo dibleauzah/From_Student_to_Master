@@ -261,12 +261,54 @@ def lightBulb(N):
 # *_Day 14 of STM Self-Challenge: April 23, 2024
 #!_Challenge(s) waived for today. Goal: continuous practice.
 
-print("Today is a good day! Salut, monde! :-)")
+# print("Today is a good day! Salut, monde! :-)")
 
 #?_Functionality Test Result: PASS.
 #?_Details (/results pasted below):
 # [Running] python -u "/Users/seif/Desktop/From_Student_to_Master/importantAlgos/0wxOnWaxOff.py"
 # Today is a good day! Salut, monde! :-)
 # [Done] exited with code=0 in 0.105 seconds
+
+#!-----------------------------------------------//
+# *_Day 15 of STM Self-Challenge: April 26, 2024
+
+# def convert(string):
+    
+#     #?_Create an empty object:
+#     obj = {}
+
+#     #?_Split the string at each person:
+#     people = string.split(' ')
+
+#     #?_Loop through all the people:
+#     for p in people:
+#         #?_Split information for each person:
+#         info = p.split(',')
+
+#         #?_Store this information in the user object:
+#         userObj = {
+#             'email': info[1] or None,
+#             'age': int(info[2]) if info[2] else None,
+#             'occupation': info[3] or None 
+#         }
+#         #?_Store the key-value [pairs] in object of users now
+#         obj[info[0]] = userObj
+#     return obj
+
+# #?_Functionality Test--Part 1; Test Case(s): 
+# s = "Daniel,me@test.com,56,Coder John,,,Teacher Michael,mike@test.com,," 
+# people = convert(s)
+
+# #?_Functionality Test--Part 2; Result: 
+
+# print (people['Daniel']['age']) #?_Success! :-) Output: 56.
+# # print (people['Mike'] ['occupation']) #?_Result: Fail; Reason: [See Error Msg Below]
+# # Traceback (most recent call last):
+# #   File "/Users/seif/Desktop/From_Student_to_Master/importantAlgos/0wxOnWaxOff.py", line 311, in <module>
+# #     print (people['Mike'] ['occupation'])
+# # KeyError: 'Mike'
+# # [Done] exited with code=1 in 0.102 seconds
+
+# print (people['Michael'] ['occupation']) #?_Result: Success! :-) Output: "None"
 
 #!-----------------------------------------------//
