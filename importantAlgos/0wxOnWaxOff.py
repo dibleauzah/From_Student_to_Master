@@ -312,3 +312,18 @@ def lightBulb(N):
 # print (people['Michael'] ['occupation']) #?_Result: Success! :-) Output: "None"
 
 #!-----------------------------------------------//
+# *_Day 16 of STM Self-Challenge: June 20, 2024
+#?_Goals for today; theme: "Make It Count!"
+#?_Goal 1: General python coding practice, ...
+#?_G-1, cont'd: via i) ("Basic 13" or "CoderByte 18") algos--minimum: 2; 
+#?_G-1, cont'd: via ii) Simple apps; source(s): online--details to be added below--minimum: 1; 
+
+
+#*_G-1-ii) = Done. Via Programiz; URL: https://programiz.pro/ide/python/T13PDSRWDZ 
+
+#*_G-1-ii)
+
+#?_Still in progress as current date (same as line 315), approx. 3:45 / 4:00 PM, EAT. 
+
+#!-----------------------------------------------//
+
