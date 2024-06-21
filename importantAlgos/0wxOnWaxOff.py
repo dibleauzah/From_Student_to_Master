@@ -313,6 +313,7 @@ def lightBulb(N):
 
 #!-----------------------------------------------//
 # *_Day 16 of STM Self-Challenge: June 20, 2024
+
 #?_Goals for today; theme: "Make It Count!"
 #?_Goal 1: General python coding practice, ...
 #?_G-1, cont'd: via i) ("Basic 13" or "CoderByte 18") algos--minimum: 2; 
@@ -326,4 +327,50 @@ def lightBulb(N):
 #?_Still in progress as current date (same as line 315), approx. 3:45 / 4:00 PM, EAT. 
 
 #!-----------------------------------------------//
+# *_Day 17 of STM Self-Challenge: June 21, 2024
+
+#?_Goals for today; theme: "Finish What You Start! [**Red Angry-Face Emoji**]"
+#?_Goal 1 of 1--To be updated if necessary; continuation/completion of yesterday's goal(s), namely: 
+
+#?_General python coding practice:
+#?_Via i) ("Basic 13" or "CoderByte 18") algos--minimum: 2. 
+
+#*_Specific challenge i): "[Find the] Min-Max-Avg"--From "Coding Dojo's 'Basic 13'"--See line 346 below; switched over to JS file ("0waxOnWaxOff.js").
+
+#*_Specific challenge ii): "Implement Map and Filter"--From CoderByte's Basic 13'"
+
+#!_1)
+
+#?_Step 1: Declare and name the function:
+# function PrintMinMaxAvg(arr){
+#     var min = Infinity;
+#     var max
+# }
+#?_Wowzah! I forgot I'm working with Python! [Hand-palm on face emoji.] Switching to JS file.
+
+#!_2)
+
+def map(arr, fn):
+    
+    result = []
+
+    #?_Apply the function to each element and store the result:
+
+    for i in arr:
+        applied = fn(i)
+        result.append(applied)
+    
+    return result 
+
+#?_Usage-test: 
+square = lambda x: x * x
+
+addZeroes = lambda x: int(str(x) + '00')
+
+map ([1, 2, 3, 4], square) 
+
+#?_ For the above test, the result should be [1, 4, 9, 16]. 
+#?_ Checking...: Test successful. :-) 
+
+#!-----------------------------------------------// 
 

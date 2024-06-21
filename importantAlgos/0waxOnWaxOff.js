@@ -108,3 +108,61 @@
 
 //!-----------------------------------------------//
 //!-----------------------------------------------//
+
+
+//!-----------------------------------------------//
+//!_Day 17 of STM Self-Challenge: June 21, 2024 
+
+//*_Specific challenge i): "[Find the] Min-Max-Avg"--From "Coding Dojo's 'Basic 13'"
+
+//*_Attempt 1: Done without peeking. See test/ouput result on line 145 farther below.
+
+//?_Step 1: Declare and name the function:
+// function minMaxAvg([arr]){
+    
+//     //?_Step 2: Define the variables:
+//     var min = Infinity;
+//     var max = -Infinity;
+
+//     var sum = 0;
+    
+//     //?_Step 3; Use a standard loop to count through the array's contents:
+//     for (let i = 0; i <= arr.length; i++){
+
+//             //?_Step 4; Update the sum:
+//             sum = sum + arr(i);
+
+//         //?_Step 5; Define the average value:
+//         var avg = sum / arr.length;
+
+//         //?_Step 6; Compose an output statement:
+//         return ("Hi! It looks like your minimum is " + min + "; your maximum is " + max + "; and your average is " + avg + "! Have an awesome day! :-)")
+//     }
+// }
+
+// minMaxAvg([1, 2, 3, 4, 5]);
+
+//*_Test result: failed. Reason--"diagnosed" after "peeking at the correct code": I forgot to update the min and max values.
+
+//*_Attempt 2: Via correct copied/pasted code.
+
+function PrintMaxMinAverageArrayVals(arr) {
+    var min = Infinity;
+    var max = -Infinity;
+    var sum = 0;
+    for (var i = 0; i < arr.length; i++) {
+      sum = sum + arr[i];
+      if (arr[i] > max) {
+        max = arr[i];
+      }
+      else if (arr[i] < min) {
+        min = arr[i];
+      }
+    }
+    var average = sum / arr.length;
+    return ('Min: ' + min + ' Max: ' + max + ' Average: ' + average)
+  }
+  
+  PrintMaxMinAverageArrayVals([1, 800, 58, 899, 2000, 1855, 100]); 
+  
+  //*_Test result: failed. Reason: terminal / output / console confusion. :-(
