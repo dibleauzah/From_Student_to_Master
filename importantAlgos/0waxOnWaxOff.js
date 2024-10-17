@@ -111,7 +111,7 @@
 
 
 //!-----------------------------------------------//
-//!_Day 17 of STM Self-Challenge: June 21, 2024 
+//!_Day 17 of STM Self-Challenge: June 21, 2024  
 
 //*_Specific challenge i): "[Find the] Min-Max-Avg"--From "Coding Dojo's 'Basic 13'"
 
@@ -146,23 +146,42 @@
 
 //*_Attempt 2: Via correct copied/pasted code.
 
-function PrintMaxMinAverageArrayVals(arr) {
-    var min = Infinity;
-    var max = -Infinity;
-    var sum = 0;
-    for (var i = 0; i < arr.length; i++) {
-      sum = sum + arr[i];
-      if (arr[i] > max) {
-        max = arr[i];
-      }
-      else if (arr[i] < min) {
-        min = arr[i];
-      }
-    }
-    var average = sum / arr.length;
-    return ('Min: ' + min + ' Max: ' + max + ' Average: ' + average)
-  }
+// function PrintMaxMinAverageArrayVals(arr) {
+//     var min = Infinity;
+//     var max = -Infinity;
+//     var sum = 0;
+//     for (var i = 0; i < arr.length; i++) {
+//       sum = sum + arr[i];
+//       if (arr[i] > max) {
+//         max = arr[i];
+//       }
+//       else if (arr[i] < min) {
+//         min = arr[i];
+//       }
+//     }
+//     var average = sum / arr.length;
+//     return ('Min: ' + min + ' Max: ' + max + ' Average: ' + average)
+//   }
   
-  PrintMaxMinAverageArrayVals([1, 800, 58, 899, 2000, 1855, 100]); 
+//   PrintMaxMinAverageArrayVals([1, 800, 58, 899, 2000, 1855, 100]); 
   
   //*_Test result: failed. Reason: terminal / output / console confusion. :-(
+
+//!-----------------------------------------------//
+//!-----------------------------------------------//
+
+
+//!-----------------------------------------------//
+//!_Day 18 of STM Self-Challenge: Oct 17, 2024  
+
+// function returnOdds(){
+//   var arrOdd = [];
+//   for (var i = 1; i < 255; i + 2){
+//     arrOdd.push(i);
+//   }
+//   return arrOdd;
+// }
+
+// console.log(returnOdds());
+
+//*_Output result = unnsuccessful / error message.
