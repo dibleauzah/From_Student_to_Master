@@ -185,3 +185,29 @@
 // console.log(returnOdds());
 
 //*_Output result = unnsuccessful / error message.
+
+//!-----------------------------------------------//
+//!_Day 19 of STM Self-Challenge: Dec 2, 2024  
+//!_Sesh Time: Approx 1 PM, US-EST.
+//?__Wow. Finall, after such a long hiatus! "Better late than never," I guess.
+
+//*_Agenda // Purpose: Purely meant for helping me climb back onto the proverbial horse--so to speak, after the long absence!
+//*__ __ __// "Fun Fact": Unless I'm mistaken, I believe I executed the last set of updates while in East Africa! 
+
+//?__Intention for code below: for the console.log to produce a given statement, before the counter reaches a given number.
+
+function simplyPracticing([arr]){
+  for (let i = 0; i <= 10; i++){
+        while (i++){
+          console.log("Wow, this really works! :-)");
+        }
+        while (i = 10){
+          console.log("Ok. Done!")
+        }
+  }
+}
+
+simplyPracticing([10]);
+//*_Output = Non-stop printing of either "Wow, this really works! :-)" with just the first loop block. With the 2nd loop, the machine endlessly prints "Ok. Done!"
+//*_Next steps: 1) Pushing to GH; 2) Checking with "Prof Chat," re: how I can fix the code.
+
