@@ -196,18 +196,35 @@
 
 //?__Intention for code below: for the console.log to produce a given statement, before the counter reaches a given number.
 
-function simplyPracticing([arr]){
-  for (let i = 0; i <= 10; i++){
-        while (i++){
-          console.log("Wow, this really works! :-)");
-        }
-        while (i = 10){
-          console.log("Ok. Done!")
-        }
-  }
-}
+// function simplyPracticing([arr]){
+//   for (let i = 0; i <= 10; i++){
+//         while (i++){
+//           console.log("Wow, this really works! :-)");
+//         }
+//         while (i = 10){
+//           console.log("Ok. Done!")
+//         }
+//   }
+// }
 
-simplyPracticing([10]);
+// simplyPracticing([10]);
+
 //*_Output = Non-stop printing of either "Wow, this really works! :-)" with just the first loop block. With the 2nd loop, the machine endlessly prints "Ok. Done!"
 //*_Next steps: 1) Pushing to GH; 2) Checking with "Prof Chat," re: how I can fix the code.
+
+//?_Please note the revised code below, courtesy of my dear ol' Prof Chat! :-)
+
+// function simplyPracticing() {
+//   for (let i = 0; i <= 10; i++) {
+//     if (i < 10) {
+//       console.log("Wow, this really works! :-)");
+//     } else if (i === 10) {
+//       console.log("Ok. Done!");
+//     }
+//   }
+// }
+
+// simplyPracticing();
+//*_Output = Non-stop printing of either "Wow, this really works! :-)" with just the first loop block. With the 2nd loop, the machine endlessly prints "Ok. Done!"
+
 
