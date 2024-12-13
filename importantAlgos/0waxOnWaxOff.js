@@ -228,3 +228,9 @@
 //*_Output = Non-stop printing of either "Wow, this really works! :-)" with just the first loop block. With the 2nd loop, the machine endlessly prints "Ok. Done!"
 
 
+function joaoAndSeifSesh(){
+  return("Hi guys!");
+}
+
+console.log(joaoAndSeifSesh());
+
