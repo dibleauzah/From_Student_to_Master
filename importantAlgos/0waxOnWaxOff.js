@@ -227,10 +227,7 @@
 // simplyPracticing();
 //*_Output = Non-stop printing of either "Wow, this really works! :-)" with just the first loop block. With the 2nd loop, the machine endlessly prints "Ok. Done!"
 
-
-function joaoAndSeifSesh(){
-  return("Hi guys!");
-}
-
-console.log(joaoAndSeifSesh());
+//!-----------------------------------------------//
+//!_Day 20 of STM Self-Challenge: Dec 17, 2024  
+//!_Sesh Time: Approx 10 AM, US-EST. 
 

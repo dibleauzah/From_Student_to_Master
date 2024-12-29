@@ -350,27 +350,31 @@ def lightBulb(N):
 
 #!_2)
 
-def map(arr, fn):
+# def map(arr, fn):
     
-    result = []
+#     result = []
 
-    #?_Apply the function to each element and store the result:
+#     #?_Apply the function to each element and store the result:
 
-    for i in arr:
-        applied = fn(i)
-        result.append(applied)
+#     for i in arr:
+#         applied = fn(i)
+#         result.append(applied)
     
-    return result 
+#     return result 
 
-#?_Usage-test: 
-square = lambda x: x * x
+# #?_Usage-test: 
+# square = lambda x: x * x
 
-addZeroes = lambda x: int(str(x) + '00')
+# addZeroes = lambda x: int(str(x) + '00')
 
-map ([1, 2, 3, 4], square) 
+# map ([1, 2, 3, 4], square) 
 
 #?_ For the above test, the result should be [1, 4, 9, 16]. 
 #?_ Checking...: Test successful. :-) 
 
 #!-----------------------------------------------// 
+
+#!_Day 20 of STM Self-Challenge: Dec 17, 2024  
+#!_Sesh Time: 11:30 AM, US-EST. 
+
 

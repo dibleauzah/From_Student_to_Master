@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEX Landing Page</title>
+    <style>
+        /* CSS rules go here (already provided in the earlier snippet) */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5em 1em;
+        }
+        .nav-bar {
+            display: none;
+            background-color: #4CAF50;
+            position: absolute;
+            top: 50px;
+            right: 0;
+            width: 200px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .nav-bar a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+        .nav-bar a:hover {
+            background-color: #45a049;
+        }
+        .menu-icon {
+            cursor: pointer;
+        }
+        .login-section {
+            display: flex;
+            gap: 1em;
+        }
+        section {
+            padding: 2em;
+            margin: 1em;
+            background-color: #f4f4f4;
+            border-radius: 8px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HEX Portal</h1>
+        <div class="menu-icon">☰</div>
+    </header>
+    <nav class="nav-bar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <h2>Welcome to the Higher-Ed-X (HEX) Portal</h2>
+        <p>Your gateway to streamlined college admissions and student support.</p>
+        <div class="login-section">
+            <button>Student Login</button>
+            <button>College/HS Official Login</button>
+        </div>
+    </section>
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const navBar = document.querySelector('.nav-bar');
+        menuIcon.addEventListener('click', () => {
+            navBar.style.display = navBar.style.display === 'block' ? 'none' : 'block';
+        });
+    </script>
+</body>
+</html>
